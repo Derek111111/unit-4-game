@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src = "assets/javascript/game.js"></script>
+
+
+    </head>
+
+
+    <body>
+
+        <div class = "pageTitle">
+
+            <h1 id = "title">Crystals Collector!</h1>
+
+        </div>
+
+        <div id = "infoBox">
+
+            <p>You will be given a random number at the start of the gaeme.</p>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                to your total score
+            </p>
+
+            <p>
+                You win the game by matching your total score to the random number, you lose the game if 
+                your total score goes over the random number.
+            </p>
+
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+
+            <p>Each time the game resets, the value of each crystal will be changed.</p>
+
+        </div>
+
+        <div id = "randomNumber" class = "left"></div>
+        <div id = "wins-losses" class = "left">
+
+            <div id = "game-reset-message"></div>
+            <div id = "wins">Wins: 0</div>
+            <div id = "losses">Losses: 0</div>
+
+        </div>
+
+        <div id = "crystals" class = "no-left">
+
+            <div id = "red-crystal" class = "left crystal" value = "0">
+                <img src = "assets/images/red-crystal.png" alt = "red crystal" value = "1" height = "100" width = "100">
+            </div>
+
+            <div id = "green-crystal" class = "left crystal" value = "1">
+                <img src = "assets/images/green-crystal.png" alt = "green crystal" value = "2" height = "100" width = "100">
+            </div>
+
+            <div id = "yellow-crystal" class = "left crystal" value = "2">
+                <img src = "assets/images/yellow-crystal.png" alt = "yellow crystal" value = "3" height = "100" width = "100">
+            </div>
+
+            <div id = "blue-crystal" class = "left crystal" value = "3">
+                <img src = "assets/images/blue-crystal.jpg" alt = "blue crystal" value = "4" height = "100" width = "100">
+            </div>
+
+        </div>
+
+        <div class = "score-container no-left">
+
+            <div id = "score-title">
+                Your total score is: 
+            </div>
+
+            <div id = "score-number">
+                0
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

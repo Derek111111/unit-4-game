@@ -1,0 +1,92 @@
+.pageTitle{
+
+    padding: 15px;
+    margin: 15px;
+    background-color: peachpuff;
+    width: 500px;
+    text-align: center;
+
+}
+
+#infoBox{
+
+    background-color: tan;
+    color: green;
+    width: 700px;
+    margin: 15px;
+    padding: 30px;
+
+}
+
+p{
+
+    padding: 8px;
+    font-size: 20px;
+
+}
+
+.left{
+
+    float: left;
+
+}
+
+#randomNumber{
+
+    font-size: 30px;
+    background-color:green;
+    margin: 15px;
+    padding: 5px;
+    width: 200px
+
+}
+
+#wins-losses{
+
+    background-color:cyan;
+    margin: 15px;
+    padding: 5px;
+    width: 125px;
+    font-size: 20px;
+
+}
+
+.no-left{
+
+    clear: both;
+    margin: 15px;
+
+}
+
+.crystal{
+
+    width: 100px;
+    height: 100px;
+    margin:15px;
+
+}
+
+.score-container{
+
+    width: 350px;
+    margin:15px;
+
+
+}
+
+#score-title{
+
+    background-color: green;
+    margin:15px;
+    font-size: 20px;
+
+}
+
+#score-number{
+
+    height: 175px;
+    background-color:green;
+    margin: 15px;
+    font-size: 40px;
+
+}
